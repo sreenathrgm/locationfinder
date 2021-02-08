@@ -33,10 +33,14 @@ gradle build && java -jar build/libs/locationfinder-0.0.1-SNAPSHOT.jar
 
 
 ## Run docker:
+```
 1.docker pull sreenathp/locationfinder
-2.docker run sreenathp/locationfinder
 
+2.docker run sreenathp/locationfinder
+```
 
 
 ##Swagger UI to test end points
+```
 http://localhost:8095/swagger-ui.html
+```
