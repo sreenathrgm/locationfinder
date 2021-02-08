@@ -26,7 +26,7 @@ Docker Container
 ```
 
 ##Usage
-Build and Run with command
+Build and Run the project locally with below command
 ```
 gradle build && java -jar build/libs/locationfinder-0.0.1-SNAPSHOT.jar
 ```
