@@ -21,7 +21,7 @@ JDK1.8
 Gradle5.X/ above
 Cloud-hosted MongoDB service/MongoDB Community Edition 4.4
 Docker Container
-###Note: MongoDB Atlas is a hosted MongoDB service option in the cloud which requires no installation overhead and offers a free tier to get started.
+### Note: MongoDB Atlas is a hosted MongoDB service option in the cloud which requires no installation overhead and offers a free tier to get started.
 
 ```
 
