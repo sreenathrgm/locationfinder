@@ -1,4 +1,4 @@
-#Restful Webservices
+# Restful Webservices
 Spring boot used for Restful API's for CRUD operations.
 Swagger integration used for Rest ApI documentation to test the end points.It can also be disabled in higher environments with below property
 ```
@@ -13,7 +13,7 @@ Vincenty’s formula used for Calculating the geographical distance (in kilomete
 This formula is widely used in geographic information systems (GIS) and is much more accurate than methods for computing the great-circle distance (which assume a spherical Earth).
 Embedded tomcat container runs on port 8090, changed to default due to some other resource is using the same port.
 
-##Prerequisites
+## Prerequisites
 What things you need to install the software.
 
 ```
@@ -25,7 +25,7 @@ Docker Container
 
 ```
 
-##Usage
+## Usage
 Build and Run the project locally with below command
 ```
 gradle build && java -jar build/libs/locationfinder-0.0.1-SNAPSHOT.jar
@@ -40,7 +40,7 @@ gradle build && java -jar build/libs/locationfinder-0.0.1-SNAPSHOT.jar
 ```
 
 
-##Swagger UI to test end points
+## Swagger(OpenApi) UI to test end points
 ```
 http://localhost:8095/swagger-ui.html
 ```
