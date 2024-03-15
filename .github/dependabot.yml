@@ -11,9 +11,6 @@ updates:
       interval: "daily"
       # Allow up to 10 open pull requests for pip dependencies
       open-pull-requests-limit: 10
-      target-branch: "feature/github-versionupdate"
-    pull-request-branch-name:
-      # Separate sections of the branch name with a hyphen
-      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
-      separator: "-"
+    target-branch: "feature/github-versionupdate"
+    
       
