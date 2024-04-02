@@ -16,5 +16,12 @@ updates:
        prefix: "dependabot-java"
        prefix-development: "dependabot-java dev"
        include: "scope"
+    groups:
+       # Specify a name for the group, which will be used in pull request titles
+       # and branch names
+       dev-dependencies:
+          # Define patterns to include dependencies in the group (based on
+          # dependency name)
+          applies-to: version-updates # Applies the group rule to version updates
     
       
