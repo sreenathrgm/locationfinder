@@ -13,7 +13,7 @@ updates:
     open-pull-requests-limit: 10
     target-branch: "feature/github-versionupdate"
     commit-message:
-       prefix: "dependabot prod"
+       prefix: "dependabot-java"
        prefix-development: "dependabot-java dev"
        include: "scope"
     
