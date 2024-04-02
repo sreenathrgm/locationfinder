@@ -34,6 +34,15 @@ dependencies {
 	compile 'io.springfox:springfox-swagger2:2.7.0'
 	compile 'io.springfox:springfox-swagger-ui:2.7.0'	
 	implementation 'org.json:json:20240205'
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjweaver
+	runtimeOnly 'org.aspectj:aspectjweaver:1.9.21.1'
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjrt
+	runtimeOnly 'org.aspectj:aspectjrt:1.9.21.1'
+	implementation 'javax.ws.rs:javax.ws.rs-api:2.1'
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	implementation 'com.google.code.gson:gson:2.9.1'
+
+
 
 }
 
